@@ -67,5 +67,10 @@ int main(){
             }
             printf("\n");
         }
-    
+    free(matA);
+    free(matB);
+    free(matC);
+
+
+    return 0;
 }
